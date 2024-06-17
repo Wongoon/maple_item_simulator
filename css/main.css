@@ -1,0 +1,29 @@
+@import url(reset.css);
+header {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    background: var(--header-clr);
+}
+header .nav {
+    display: flex;
+    justify-content: center;
+}
+header .nav li {
+    width: 250px;
+    padding: 10px 50px;
+    background: transparent;
+}
+header .nav li a {
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    color: var(--text-clr);
+}
+header .nav li:hover {
+    background: var(--primary-clr);
+}
+header .nav li:hover a {
+    color: var(--primary-clr-light);
+}
